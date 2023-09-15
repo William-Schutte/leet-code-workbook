@@ -18,6 +18,10 @@ export default function Home() {
         <Layout>
           <Text fontSize="4xl">Coooool</Text>
           <Link href="/problems/twoSum">TwoSum</Link>
+          <Link href="/problems/maxProfit">
+            Best Time to Buy and Sell Stock
+          </Link>
+          <Link href="/problems/sumOfTwoIntegers">Sum of Two Integers</Link>
         </Layout>
       </main>
     </>

@@ -1,10 +1,10 @@
 import { Heading, Text } from "@chakra-ui/react";
 import Layout from "../../layout";
 
-export default function TwoSum() {
+export default function MaxProfit() {
   return (
     <Layout>
-      <Heading>Max Profit</Heading>
+      <Heading>Best Time to Buy and Sell Stock</Heading>
       <Text>
         You are given an array prices where prices[i] is the price of a given
         stock on the ith day. You want to maximize your profit by choosing a
