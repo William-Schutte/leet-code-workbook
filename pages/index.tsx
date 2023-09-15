@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Layout>
           <Text fontSize="4xl">Coooool</Text>
-          <Link href="/problems/TwoSum">TwoSum</Link>
+          <Link href="/problems/twoSum">TwoSum</Link>
         </Layout>
       </main>
     </>
