@@ -31,12 +31,12 @@ export default function JavaScriptTrivia() {
         Enums allow us to create sets of named constants. The default enum will
         index entries like an array, though as a dictionary. This can be
         overridden however.
-        {"enum friends { bff: 'Louis', boss: 'Ben }"}
+        {"enum friends { bff: 'Louis', boss: 'Ben' }"}
         {"friends.bff => 'Louis'"}
       </Text>
-      <Heading>What is typeOf?</Heading>
+      <Heading>What is typeof?</Heading>
       <Text>
-        The typeOf operator returns a string declaring the type of the target
+        The typef operator returns a string declaring the type of the target
         variable or object.
       </Text>
     </Layout>
