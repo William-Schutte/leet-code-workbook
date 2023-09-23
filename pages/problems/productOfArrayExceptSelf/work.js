@@ -3,6 +3,7 @@
  * @return {number[]}
  */
 var productExceptSelf = function (nums) {
+  // This is the solution in O(n) time
   // This is the product of product of the array to the left of the number
   // and the product of the array to the right of the number (excluding i = 0)
   // [2, 3, 4, 5, 6, 7]

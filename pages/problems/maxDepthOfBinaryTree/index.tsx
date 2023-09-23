@@ -1,7 +1,7 @@
 import { Heading, Text } from "@chakra-ui/react";
 import Layout from "../../layout";
 
-export default function MaxProfit() {
+export default function MaxDepthOfBinaryTree() {
   return (
     <Layout>
       <Heading>Maximum Depth of Binary Tree</Heading>

@@ -1,7 +1,7 @@
 import { Heading, Text } from "@chakra-ui/react";
 import Layout from "../../layout";
 
-export default function MaxProfit() {
+export default function ValidParenthesis() {
   return (
     <Layout>
       <Heading>Valid Parenthesis</Heading>
