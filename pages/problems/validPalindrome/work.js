@@ -4,7 +4,6 @@
  */
 var isPalindrome = function (s) {
   const palindrome = s.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-  console.log(palindrome);
   const maxIndex = palindrome.length - 1;
 
   let left = palindrome[0];
@@ -12,7 +11,6 @@ var isPalindrome = function (s) {
 
   let counter = 1;
   while (left === right) {
-    console.log(left, right);
     left = palindrome[counter];
     right = palindrome[maxIndex - counter];
     counter++;
