@@ -26,7 +26,6 @@ TimeMap.prototype.get = function (key, timestamp) {
   if (this.timeMap.has(key)) {
     const timeArray = this.timeMap.get(key);
     let n = timestamp;
-    console.log(timeArray);
     while (n > 0) {
       if (timeArray[n] !== undefined) return timeArray[n];
       else n--;
